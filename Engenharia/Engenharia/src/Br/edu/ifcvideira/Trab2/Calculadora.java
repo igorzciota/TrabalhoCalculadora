@@ -141,6 +141,10 @@ public class Calculadora extends JFrame {
 	private void Multiplicacao() {
 		tfResultado.setText(Integer.toString(Integer.parseInt(tfNumero1.getText()) * Integer.parseInt(tfNumero2.getText())));
 	}
+	private void Divisao(){
+		tfResultado.setText(Double.toString(Double.parseDouble(tfNumero1.getText()) / Double.parseDouble(tfNumero2.getText())));
+	}
+
 
 
 
