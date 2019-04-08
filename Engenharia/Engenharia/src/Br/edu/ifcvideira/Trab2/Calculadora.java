@@ -138,6 +138,10 @@ public class Calculadora extends JFrame {
 	private void Subtracao() {
 		tfResultado.setText(Integer.toString(Integer.parseInt(tfNumero1.getText()) - Integer.parseInt(tfNumero2.getText())));
 	}
+	private void Multiplicacao() {
+		tfResultado.setText(Integer.toString(Integer.parseInt(tfNumero1.getText()) * Integer.parseInt(tfNumero2.getText())));
+	}
+
 
 
 
