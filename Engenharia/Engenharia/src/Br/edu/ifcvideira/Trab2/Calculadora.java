@@ -127,9 +127,16 @@ public class Calculadora extends JFrame {
 		btnNewButton.setBounds(163, 153, 89, 23);
 		contentPane.add(btnNewButton);
 		
-		
-
 	}
+	private void Break() {
+		System.exit(0);
+		
+	}
+	private void Soma() {
+		tfResultado.setText(Integer.toString(Integer.parseInt(tfNumero1.getText()) + Integer.parseInt(tfNumero2.getText())));
+	}
+
+
 
 
 }
