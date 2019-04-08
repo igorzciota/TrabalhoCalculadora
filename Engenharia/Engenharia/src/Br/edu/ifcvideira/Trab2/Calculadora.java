@@ -70,7 +70,7 @@ public class Calculadora extends JFrame {
 		JButton btSoma = new JButton("+");
 		btSoma.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				//Soma();
+				Soma();
 			}
 		});
 		btSoma.setBounds(60, 100, 50, 40);
@@ -79,7 +79,7 @@ public class Calculadora extends JFrame {
 		JButton btSub = new JButton("-");
 		btSub.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				//Subtracao();
+				Subtracao();
 			}
 		});
 		btSub.setBounds(170, 100, 50, 40);
@@ -88,7 +88,7 @@ public class Calculadora extends JFrame {
 		JButton btMulti = new JButton("X");
 		btMulti.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				//Multiplicacao();
+				Multiplicacao();
 			}
 		});
 		btMulti.setBounds(225, 100, 50, 40);
@@ -97,7 +97,7 @@ public class Calculadora extends JFrame {
 		JButton btDiv = new JButton("/");
 		btDiv.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				//Divisao();
+				Divisao();
 			}
 		});
 		btDiv.setBounds(115, 100, 50, 40);
@@ -121,7 +121,7 @@ public class Calculadora extends JFrame {
 		JButton btnNewButton = new JButton("Sair");
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-					//Break();
+					Break();
 			}
 		});
 		btnNewButton.setBounds(163, 153, 89, 23);
@@ -144,6 +144,7 @@ public class Calculadora extends JFrame {
 	private void Divisao(){
 		tfResultado.setText(Double.toString(Double.parseDouble(tfNumero1.getText()) / Double.parseDouble(tfNumero2.getText())));
 	}
+	
 
 
 
